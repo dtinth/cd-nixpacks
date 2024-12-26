@@ -11,7 +11,7 @@ runs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ github.token }}
     - name: Build and push Docker images
       uses: iloveitaly/github-action-nixpacks@1015581ad805f3829ad4bdd5deb892e3b5c525b8
       with:
