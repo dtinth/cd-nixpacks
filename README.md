@@ -23,5 +23,5 @@ jobs:
 
 | Preset name | Behavior |
 | --- | --- |
-| build-multiarch (default) | Builds an amd64+arm64 multi-architecture image. Image can be deployed to arm64 hosts, but is slower. |
+| build-multiarch (default) | Builds an amd64+arm64 multi-architecture image. Image can be deployed to arm64 hosts, but requires more time to build. |
 | build-amd64 | Builds an amd64 image. |
