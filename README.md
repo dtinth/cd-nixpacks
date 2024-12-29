@@ -18,3 +18,10 @@ jobs:
         with:
           preset: build-amd64
 ```
+
+## Presets
+
+| Preset name | Behavior |
+| --- | --- |
+| build-multiarch (default) | Builds an amd64+arm64 multi-architecture image. Image can be deployed to arm64 hosts, but is slower. |
+| build-amd64 | Builds an amd64 image. |
